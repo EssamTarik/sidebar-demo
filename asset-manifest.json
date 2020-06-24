@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61a12902.chunk.css",
+    "main.js": "/static/js/main.70205a2c.chunk.js",
+    "main.js.map": "/static/js/main.70205a2c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.add57c42.js",
+    "runtime-main.js.map": "/static/js/runtime-main.add57c42.js.map",
+    "static/js/2.2cf6e85d.chunk.js": "/static/js/2.2cf6e85d.chunk.js",
+    "static/js/2.2cf6e85d.chunk.js.map": "/static/js/2.2cf6e85d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fc057638048562dedf769a441f6b61f0.js": "/precache-manifest.fc057638048562dedf769a441f6b61f0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.61a12902.chunk.css.map": "/static/css/main.61a12902.chunk.css.map",
+    "static/js/2.2cf6e85d.chunk.js.LICENSE.txt": "/static/js/2.2cf6e85d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/AvenirLTStd-Roman.b1d7c6e0.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.add57c42.js",
+    "static/js/2.2cf6e85d.chunk.js",
+    "static/css/main.61a12902.chunk.css",
+    "static/js/main.70205a2c.chunk.js"
+  ]
+}
