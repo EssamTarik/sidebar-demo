@@ -7,7 +7,10 @@
   overflow: hidden;
 }
 
-.home-page__content {
+.home-page__content-container {
+  padding: 43px 0 0 36px;
+  box-sizing: border-box;;
+
   width: 100vw;
   height: 100vh;
   background-color: white;
@@ -19,7 +22,7 @@
   overflow: auto;
 }
 
-.home-page__content--sidebar-open {
+.home-page__content-container--sidebar-open {
   transform: rotate(-7deg);
   left: 253px;
 }

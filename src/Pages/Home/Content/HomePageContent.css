@@ -1,0 +1,22 @@
+.home-page__content__header {
+  display: flex;
+}
+.home-page__content__header__title {  
+  display: block;
+  font-family: Avenir Medium;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: left;
+  color: #9F9FA0;
+  text-transform: uppercase;
+
+  margin-left: 35px;
+}
+
+.home-page__content__header__toggle {
+  border: none;
+  background: none;
+  outline: none;
+
+  cursor: pointer;
+}

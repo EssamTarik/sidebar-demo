@@ -1,7 +1,9 @@
 import React, { useState, useCallback } from 'react';
 import cn from 'classnames';
 import { Sidebar, RoundedView } from '../../components';
+import HomePageContent from './Content';
 import "./HomePage.css";
+
 
 const HomePage = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -17,8 +19,8 @@ const HomePage = () => {
   return (
     <RoundedView className='home-page'>
       <Sidebar onClose={handleSidebarClose} title="Viktor" />
-      <RoundedView className={cn('home-page__content', { 'home-page__content--sidebar-open': sidebarOpen })}>
-        <button onClick={handleSidebarOpen}>open sidebar</button>
+      <RoundedView className={cn('home-page__content-container', { 'home-page__content-container--sidebar-open': sidebarOpen })}>
+        <HomePageContent onSidebarOpen={handleSidebarOpen} />
       </RoundedView>
     </RoundedView>
   )
