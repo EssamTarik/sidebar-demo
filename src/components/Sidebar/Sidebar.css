@@ -1,0 +1,23 @@
+.sidebar {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: capitalize;;
+  margin-left: 27px;
+}
+
+.sidebar__menu {
+  padding: 57px 0 61px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__title {
+  font-family: Avenir Black;
+  color: white;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+}
