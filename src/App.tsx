@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { Sidebar } from './components';
+import { HomePage } from './Pages';
 
 function App() {
   return (
     <div className="App">
-        <Sidebar title="viktor" onClose={alert} />
+        <HomePage />
     </div>
   );
 }
