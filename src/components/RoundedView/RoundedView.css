@@ -1,4 +1,4 @@
 .rounded-view {
   border: none;
-  border-radius: 48px;
+  border-radius: 48px 0 0 0;
 }
